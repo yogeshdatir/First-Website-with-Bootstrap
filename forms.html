@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Bootstrap 101 Template</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.min.js"></script>
+      <script src="js/respond.min.js"></script>
+    <![endif]-->
+      <style>
+          a{
+              color:#E3F2FD;
+          }
+          .icon-bar {
+              background-color: aqua;
+          }
+      </style>
+  </head>
+  <body>
+      <div class="container">
+          <form>
+              <div class="form-group">
+                  <label for="email">Email :</label>
+                  <input class="form-control" type=email id=email placeholder="Enter email here...">
+                  <small class="text-muted">We'll never share your email with anyone else.</small>
+              </div>
+              <div class="form-group">
+                  <label for="pwd">Password :</label>
+                  <input class="form-control" type=password id=pwd>
+              </div>
+              <div class="form-group">
+                  <label for="sel">Select example :</label>
+                  <select class=form-control id=sel>
+                      <option>1</option>
+                      <option>2</option>
+                      <option>3</option>
+                      <option>4</option>
+                      <option>5</option>
+                  </select>
+              </div>
+              <div class="form-group">
+                  <label for="selmul">Select Multiple :</label>
+                  <select multiple class="form-control" id="selmul">
+                      <option>1</option>
+                      <option>2</option>
+                      <option>3</option>
+                      <option>4</option>
+                      <option>5</option>
+                  </select> 
+              </div>
+              <div class="form-group">
+                  <label for="ta">Textarea :</label>
+                  <textarea class="form-control" rows="3" id="ta"></textarea>
+              </div>
+              <div class="form-group">
+                  <label for="fi">File input :</label>
+                  <input type="file" class="form-control-file" id="fi">
+              </div>
+              <fieldset class="form-group">
+                  <h1>Radios :</h1>
+                  <div class="radio">
+                      <label><input type=radio name="optradio"> 1 </label>
+                  </div>
+                  <div class="radio">
+                      <label><input type=radio name="optradio"> 2 </label>
+                  </div>
+                  <div class="radio disabled">
+                      <label><input type=radio name="optradio" disabled> 3 </label>
+                  </div>
+              </fieldset>
+              <div class="form-group">
+                  <h1>Checkboxes :</h1>
+                  <div class="checkbox">
+                      <label><input type="checkbox"> 1 </label>
+                  </div>
+                  <div class="checkbox">
+                      <label><input type="checkbox"> 2 </label>
+                  </div>
+                  <div class="checkbox disabled">
+                      <label><input type="checkbox" disabled> 3 </label>
+                  </div>
+              </div>
+              <button type="submit" class="btn btn-primary"> Submit </button>
+              <fieldset class="form-group">
+                  <h1>Radios :</h1>
+                  <div class="radio">
+                      <label class="radio-inline"><input type=radio name="optradio"> 1 </label>
+
+                      <label class="radio-inline"><input type=radio name="optradio"> 2 </label>
+    
+                      <label class="radio-inline"><input type=radio name="optradio" disabled> 3 </label>
+                  </div>
+                  <div class="form-group">
+                  <h1>Checkboxes :</h1>
+                  <div class="checkbox">
+                      <label class="checkbox-inline"><input type="checkbox"> 1 </label>
+
+                      <label class="checkbox-inline"><input type="checkbox"> 2 </label>
+
+                      <label class="checkbox-inline"><input type="checkbox" disabled> 3 </label>
+                  </div>
+              </div>
+              </fieldset>
+              <div class="form-group has-success">
+                  <input type="text" class="form-control form-control-success">
+              </div>
+              <div class="form-group has-warning">
+                  <input type="text" class="form-control form-control-warning">
+              </div>
+              <div class="form-group has-error">
+                  <input type="text" class="form-control form-control-error">
+              </div>
+              <div class="form-group has-success">
+                  <div class="input-group">
+                      <span class="input-group-addon">@</span>
+                      <input type="text" class="form-control form-control-success">
+                  </div>
+              </div>
+              <label class="custom-control custom-checkbox">
+                  <input class="custom-control-input" type="checkbox">
+                  <span class="custom-checkbox-indicator"></span>
+              </label>
+              <label class="custom-control custom-checkbox">
+                  <input type="checkbox" class="custom-control-input">
+                  <span class="custom-control-indicator"></span>
+                  <span class="custom-control-description">Check this custom checkbox</span>
+              </label>
+          </form>
+      
+      
+      </div>
+      
+  
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
